@@ -1,0 +1,9 @@
+[submodule "api"]
+	path = api
+	url = https://github.com/alexmoon26/kkep-chat-api.git
+[submodule "client"]
+	path = client
+	url = https://github.com/alexmoon26/kkep-chat-client.git
+[submodule "nginx"]
+	path = nginx
+	url = https://github.com/alexmoon26/kkep-chat-nginx.git
