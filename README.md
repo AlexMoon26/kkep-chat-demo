@@ -118,7 +118,7 @@ kkep_chat/
 1. **Клонируйте репозиторий:**
 
 ```bash
-git clone <repository-url>
+git clone --recursive <repository-url>
 cd kkep_chat
 ```
 
@@ -374,7 +374,7 @@ CLIENT_URL=https://your-domain.com
 
 ```yaml
 healthcheck:
-  test: ['CMD-SHELL', 'pg_isready -U postgres']
+  test: ["CMD-SHELL", "pg_isready -U postgres"]
   interval: 10s
   timeout: 5s
   retries: 5
@@ -406,18 +406,6 @@ healthcheck:
 - ✅ Оптимизируйте размер образов
 - ✅ Используйте secrets для sensitive data
 
-## 🤝 Contributing
-
-Если вы хотите внести вклад в развитие проекта:
-
-1. Fork репозиторий
-2. Создайте feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit ваши изменения (`git commit -m 'Add amazing feature'`)
-4. Push в branch (`git push origin feature/amazing-feature`)
-5. Откройте Pull Request
-
-## 📚 Дополнительные ресурсы
-
 ### Документация
 
 - [NestJS Documentation](https://docs.nestjs.com/)
@@ -427,20 +415,13 @@ healthcheck:
 - [shadcn/ui Components](https://ui.shadcn.com/)
 - [Tailwind CSS Documentation](https://tailwindcss.com/docs)
 
-### Полезные статьи
-
-- Real-time Chat with NestJS and Socket.io
-- Next.js с WebSocket интеграцией
-- PostgreSQL для production приложений
-- Docker Compose для микросервисов
-
 ## 📄 License
 
 This project is UNLICENSED. See the [LICENSE](LICENSE) file for details.
 
 ## 👨‍💻 Автор
 
-Создано как демонстрационный проект для изучения modern full-stack веб-разработки.
+Создано как демонстрационный проект для студентов ККЭП для изучения modern full-stack веб-разработки.
 
 ---
 
@@ -448,6 +429,6 @@ This project is UNLICENSED. See the [LICENSE](LICENSE) file for details.
 
 ### ⭐ Если проект вам понравился, не забудьте поставить звезду!
 
-Сделано с ❤️ для real-time chat любителей
+Сделано с ❤️
 
 </div>
